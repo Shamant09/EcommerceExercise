@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-06T16:53:23 IST" name="Default suite" finished-at="2026-01-06T16:54:07 IST" duration-ms="44322">
+  <suite started-at="2026-01-21T15:15:38 IST" name="Default suite" finished-at="2026-01-21T15:16:27 IST" duration-ms="48336">
     <groups>
     </groups>
-    <test started-at="2026-01-06T16:53:23 IST" name="Default test" finished-at="2026-01-06T16:54:07 IST" duration-ms="44322">
-      <class name="testCases.TC_002_Login_ValidUsername_PasswordTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_002_Login_ValidUsername_PasswordTest@f627d13]" started-at="2026-01-06T16:53:23 IST" name="setup" finished-at="2026-01-06T16:53:43 IST" duration-ms="20172" status="PASS">
+    <test started-at="2026-01-21T15:15:38 IST" name="Default test" finished-at="2026-01-21T15:16:27 IST" duration-ms="48336">
+      <class name="testCases.TC_07_ViewProductFromSearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_07_ViewProductFromSearchTest@f627d13]" started-at="2026-01-21T15:15:39 IST" name="setup" finished-at="2026-01-21T15:15:58 IST" duration-ms="19635" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginByValidInputs()[pri:0, instance:testCases.TC_002_Login_ValidUsername_PasswordTest@f627d13]" started-at="2026-01-06T16:53:43 IST" name="LoginByValidInputs" finished-at="2026-01-06T16:54:06 IST" duration-ms="23555" status="PASS">
+        <test-method signature="verifyProductDetailsFromSearchResults()[pri:0, instance:testCases.TC_07_ViewProductFromSearchTest@f627d13]" started-at="2026-01-21T15:15:58 IST" name="verifyProductDetailsFromSearchResults" finished-at="2026-01-21T15:16:27 IST" duration-ms="28625" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginByValidInputs -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_Login_ValidUsername_PasswordTest@f627d13]" started-at="2026-01-06T16:54:06 IST" name="tearDown" finished-at="2026-01-06T16:54:07 IST" duration-ms="554" status="PASS">
+        </test-method> <!-- verifyProductDetailsFromSearchResults -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_07_ViewProductFromSearchTest@f627d13]" started-at="2026-01-21T15:16:27 IST" name="tearDown" finished-at="2026-01-21T15:16:27 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_002_Login_ValidUsername_PasswordTest -->
+      </class> <!-- testCases.TC_07_ViewProductFromSearchTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
