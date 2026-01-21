@@ -78,8 +78,8 @@ Individual TestNG test classes
 ---
 
 🔮 Future Enhancements
-Add to Cart & Cart Validation
-Checkout flow automation
-Parallel execution support
-Extent Reports integration
-CI/CD pipeline (GitHub Actions / Jenkins)
+- Add to Cart & Cart Validation
+- Checkout flow automation
+- Parallel execution support
+- Extent Reports integration
+- CI/CD pipeline (GitHub Actions / Jenkins)
