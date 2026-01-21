@@ -69,8 +69,8 @@ The following product-related scenarios are automated:
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-2.Import the project as a Maven Project in your IDE
-3.Run tests using:
+2. Import the project as a Maven Project in your IDE
+3. Run tests using:
 testng.xml
 OR
 Individual TestNG test classes
