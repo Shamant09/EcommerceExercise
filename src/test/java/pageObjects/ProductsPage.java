@@ -89,5 +89,26 @@ public class ProductsPage extends BasePage
 		viewProductLinks.get(0).click();
 	}
 	
-
+	//First product add to cart
+	@FindBy(xpath="//a[contains(text(),'Add to cart')][1]")
+	WebElement firstProductAddToCart;
+	
+	//Continue shopping button
+	@FindBy(xpath="//button[normalize-space()='Continue Shopping']")
+	WebElement btnContinueShopping;
+	
+	public void addFirstProductToCart()
+	{
+		firstProductAddToCart.click();
+		btnContinueShopping.click();
+	}
+	
+	//Second product add to cart
+	@FindBy(xpath="//a[contains(text(),'Add to cart')][2]")
+	WebElement SecondProductAddToCart;
+	
+	public void addSecondProductToCart()
+	{
+		SecondProductAddToCart.click();
+	}
 }
